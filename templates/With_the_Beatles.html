@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
+    <title>With The Beatles</title>
+</head>
+<body>
+    <div class="background">
+        <div class="header">
+            <a href="/home_l"><img class="logo" src="{{ url_for('static', filename='images/BeatlesLogo.png') }}"/></a>
+            <h2 >With The Beatles</h2>
+            <p class="head_text2">Привет {{ username }}!</p>
+            <a href="/"><p class="head_text">Выход</p></a>
+            <img class="AlbumPhoto" src="{{ url_for('static', filename='images/WithTheBeatles.jpeg') }}"/><p class="info_text">With The Beatles (с англ. — «Вместе с Битлз») — второй студийный альбом британской рок-группы The Beatles, выпущенный в 1963 году. Семь из четырнадцати песен альбома With The Beatles были написаны Джоном Ленноном и Полом Маккартни, шесть песен были заимствованы у других авторов и впервые за всё время существования группы свою песню представил Джордж Харрисон — «Don’t Bother Me». Самой популярной песней альбома была «All My Loving». Несмотря на то, что эта песня не была выпущена в Великобритании синглом, она очень часто исполнялась на концертах, а кроме того, в 1963 году получила приз на церемонии награждения Ivor Novello Awards как «Вторая выдающаяся песня года». В отличие от первого альбома, With The Beatles записывался достаточно долго — работа над ним началась летом 1963 года, а вышел в свет он только 22 ноября. Ещё до выхода With The Beatles на него поступило 250 тысяч предварительных заказов. Таким образом, впервые в истории Великобритании долгоиграющий альбом стал «серебряным» ещё до начала продаж. Как и все остальные альбомы группы, With The Beatles очень быстро достиг первого места в британском хит-параде.</p>
+        </div>
+    </div>
+</body>
+</html>

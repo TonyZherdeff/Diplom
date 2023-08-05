@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
+    <title>The Beatles</title>
+</head>
+<body>
+    <div class="background">
+        <div class="header">
+            <a href="/"><img class="logo" src="{{ url_for('static', filename='images/BeatlesLogo.png') }}"/></a>
+            <h2 >ДОБРО ПОЖАЛОВАТЬ В ВИРТУАЛЬНЫЙ МУЗЕЙ ГРУППЫ THE BEATLES!</h2>
+            <p class="head_text2">Привет {{ username }}!</p>
+            <a href="/"><p class="head_text">Выход</p></a>
+        </div>
+        <div class="JohnPaul">
+            <div class="John">
+                <a href="/JohnBio_l">
+                    <img class="main_img" src="{{ url_for('static', filename='images/John.jpg') }}" title="Для ознакомления с биографией Джона Леннона нажмите на картинку"/>
+                </a>
+            </div>
+            <div class="Paul">
+                <a href="/PaulBio_l">
+                    <img class="main_img" src="{{ url_for('static', filename='images/Paul.jpg') }}" title="Для ознакомления с биографией Пола Маккартни нажмите на картинку"/>
+                </a>
+            </div>
+        </div>
+        <div class="RingoGeorge">
+            <div class="Ringo">
+                <a href="/RingoBio_l">
+                    <img class="main_img" src="{{ url_for('static', filename='images/Ringo.jpg') }}" title="Для ознакомления с биографией Ринго Старра нажмите на картинку"/>
+                </a>
+            </div>
+            <div class="George">
+                <a href="/GeorgeBio_l">
+                    <img class="main_img" src="{{ url_for('static', filename='images/George.jpg') }}" title="Для ознакомления с биографией Джорджа Харрисона нажмите на картинку"/>
+                </a>
+            </div>
+        </div>
+        <div class="header">
+            <h2 >СПИСОК АЛЬБОМОВ</h2>
+        </div>
+        <div class="RingoGeorge">
+            <div class="Ringo">
+                <a href="/PleasePleaseMe">
+                    <img class="main_img" src="{{ url_for('static', filename='images/PleasePleaseMe.jpeg') }}"/>
+                </a>
+            </div>
+            <div class="George">
+                <a href="/WithTheBeatles">
+                    <img class="main_img" src="{{ url_for('static', filename='images/WithTheBeatles.jpeg') }}"/>
+                </a>
+            </div>
+        </div>
+        <div class="RingoGeorge">
+            <div class="Ringo">
+                <a href="/AHardDaysNight">
+                    <img class="main_img" src="{{ url_for('static', filename='images/AHardDaysNight.webp') }}"/>
+                </a>
+            </div>
+            <div class="George">
+                <a href="/BeatlesForSale">
+                    <img class="main_img" src="{{ url_for('static', filename='images/BeatlesForSale.jpeg') }}"/>
+                </a>
+            </div>
+        </div>
+        <div class="RingoGeorge">
+            <div class="Ringo">
+                <a href="/Help">
+                    <img class="main_img" src="{{ url_for('static', filename='images/Help.jpeg') }}"/>
+                </a>
+            </div>
+            <div class="George">
+                <a href="/RubberSoul">
+                    <img class="main_img" src="{{ url_for('static', filename='images/RubberSoul.jpeg') }}"/>
+                </a>
+            </div>
+        </div>
+        <div class="RingoGeorge">
+            <div class="Ringo">
+                <a href="/Revolver">
+                    <img class="main_img" src="{{ url_for('static', filename='images/Revolver.jpeg') }}"/>
+                </a>
+            </div>
+            <div class="George">
+                <a href="/Pepper">
+                    <img class="main_img" src="{{ url_for('static', filename='images/Pepper.jpg') }}"/>
+                </a>
+            </div>
+        </div>
+        <div class="RingoGeorge">
+            <div class="Ringo">
+                <a href="/MagicalMysteryTour">
+                    <img class="main_img" src="{{ url_for('static', filename='images/MagicalMystryTour.jpeg') }}"/>
+                </a>
+            </div>
+            <div class="George">
+                <a href="/TheBeatles">
+                    <img class="main_img" src="{{ url_for('static', filename='images/TheBeatles.jpeg') }}"/>
+                </a>
+            </div>
+        </div>
+        <div class="RingoGeorge">
+            <div class="Ringo">
+                <a href="/YellowSubmarine">
+                    <img class="main_img" src="{{ url_for('static', filename='images/YellowSubmarine.jpeg') }}"/>
+                </a>
+            </div>
+            <div class="George">
+                <a href="/AbbeyRoad">
+                    <img class="main_img" src="{{ url_for('static', filename='images/AbbeyRoad.jpeg') }}"/>
+                </a>
+            </div>
+        </div>
+        <div class="RingoGeorge">
+            <div class="Ringo">
+                <a href="/LetItBe">
+                    <img class="main_img" src="{{ url_for('static', filename='images/LetItBe.jpeg') }}"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

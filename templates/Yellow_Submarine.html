@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
+    <title>Yellow Submarine</title>
+</head>
+<body>
+    <div class="background">
+        <div class="header">
+            <a href="/home_l"><img class="logo" src="{{ url_for('static', filename='images/BeatlesLogo.png') }}"/></a>
+            <h2 >Yellow Submarine</h2>
+            <p class="head_text2">Привет {{ username }}!</p>
+            <a href="/"><p class="head_text">Выход</p></a>
+            <img class="AlbumPhoto" src="{{ url_for('static', filename='images/YellowSubmarine.jpeg') }}"/><p class="info_text">Yellow Submarine (с англ. — «Жёлтая подводная лодка») — одиннадцатый студийный альбом английской группы The Beatles, вышедший в 1969 году на лейбле Parlophone. В 2016 году альбом Yellow Submarine занял 7-е место в опросе читателей журнала «Rolling Stone» «10 лучших альбомов, спродюсированных Джорджем Мартином».</p><p class="info_text">Диск является звуковой дорожкой к одноимённому мультипликационному фильму. Первая сторона представляет песни, записанные группой в 1966—68 гг. (две песни — «Yellow Submarine» и «All You Need Is Love» — к тому времени были хит-синглами) и изначально не планировавшиеся для использования в качестве звуковых дорожек. Вторая сторона записана без участия «битлов» эстрадно-симфоническим оркестром под управлением Джорджа Мартина, написавшего инструментальные композиции специально для фильма. Альбом появился в продаже в Великобритании 17 января 1969 года («Белый альбом» к этому моменту всё ещё занимал верхнюю строчку хит-парада), в то время как в США пластинка вышла четырьмя днями раньше.</p>
+        </div>
+    </div>
+</body>
+</html>

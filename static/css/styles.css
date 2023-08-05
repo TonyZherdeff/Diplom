@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif;
+}
+.background{
+    background: #01040f;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 130%;
+}
+.logo{
+    display: inline-block;
+    width: 80px;
+    height: 38px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+.header{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.header h2{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 20%;
+    width: 60%;
+}
+.JohnPaul{
+    display: inline-block;
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 1%;
+}
+.RingoGeorge{
+    display: inline-block;
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 1%;
+}
+.John{
+    display: inline-block;
+    padding-right: 1%;
+}
+.Paul{
+    display: inline-block;
+}
+.Ringo{
+    display: inline-block;
+    padding-right: 1%;
+}
+.George{
+    display: inline-block;
+}
+.main_img{
+    width: 320px;
+    height: 310px;
+    border: 4px solid #fff;
+}
+.JohnPaul img:hover{
+    filter: contrast(200%);
+    border: 4px solid #d9293b;
+}
+.RingoGeorge img:hover{
+    filter: contrast(200%);
+    border: 4px solid #d9293b;
+}
+.info_text{
+    color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    line-height: 22px;
+    text-indent: 1.5em;
+    text-align: justify;
+}
+.Lennon{
+    float: left;
+    width: 280px;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    border: 4px solid #fff;
+}
+.Lennon1{
+    float: right;
+    width: 220px;
+    height: 300px;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    border: 4px solid #fff;
+}
+.Macca{
+    float: left;
+    width: 200px;
+    height: 320px;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    border: 4px solid #fff;
+}
+.Macca1{
+    float: right;
+    width: 600px;
+    height: 300px;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    border: 4px solid #fff;
+}
+.RingoStarr{
+    float: left;
+    width: 240px;
+    height: 320px;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    border: 4px solid #fff;
+}
+.RingoStarr1{
+    float: right;
+    width: 530px;
+    height: 300px;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    border: 4px solid #fff;
+}
+.Harrison{
+    float: left;
+    width: 240px;
+    height: 320px;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    border: 4px solid #fff;
+}
+.Harrison1{
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    border: 4px solid #fff;
+}
+.choose{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 1%;
+}
+.button_start{
+    display: inline-block;
+    padding-right: 1%;
+    width: 300px;
+    height: 200px;
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+    border: 4px solid #fff;
+}
+.button_start:hover{
+    border: 4px solid #d9293b;
+}
+.head_text{
+    float: right;
+    margin-right: 5%;
+    margin-top: -3%;
+    display: inline;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.head_text:hover{
+    color: #d9293b;
+}
+.head_text1{
+    float: right;
+    margin-right: 5%;
+    margin-top: -5.5%;
+    display: inline;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.head_text1:hover{
+    color: #d9293b;
+}
+.head_text2{
+    float: right;
+    margin-right: 5%;
+    margin-top: -5.5%;
+    display: inline;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.AlbumPhoto{
+    display: inline-block;
+    margin-left: 29%;
+    width: 450px;
+    height: 450px;
+    border: 4px solid #fff;
+}

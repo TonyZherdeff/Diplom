@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
+    <title>The Beatles</title>
+</head>
+<body>
+    <div class="background">
+        <div class="header">
+            <a href="/"><img class="logo" src="{{ url_for('static', filename='images/BeatlesLogo.png') }}"/></a>
+            <h2 >ДОБРО ПОЖАЛОВАТЬ В ВИРТУАЛЬНЫЙ МУЗЕЙ ГРУППЫ THE BEATLES!</h2>
+            <a href="/login"><p class="head_text">Вход</p></a>
+            <a href="/auth_bad"><p class="head_text1">Регистрация</p></a>
+        </div>
+        <div class="JohnPaul">
+            <div class="John">
+                <a href="/JohnBio">
+                    <img class="main_img" src="{{ url_for('static', filename='images/John.jpg') }}" title="Для ознакомления с биографией Джона Леннона нажмите на картинку"/>
+                </a>
+            </div>
+            <div class="Paul">
+                <a href="/PaulBio">
+                    <img class="main_img" src="{{ url_for('static', filename='images/Paul.jpg') }}" title="Для ознакомления с биографией Пола Маккартни нажмите на картинку"/>
+                </a>
+            </div>
+        </div>
+        <div class="RingoGeorge">
+            <div class="Ringo">
+                <a href="/RingoBio">
+                    <img class="main_img" src="{{ url_for('static', filename='images/Ringo.jpg') }}" title="Для ознакомления с биографией Ринго Старра нажмите на картинку"/>
+                </a>
+            </div>
+            <div class="George">
+                <a href="/GeorgeBio">
+                    <img class="main_img" src="{{ url_for('static', filename='images/George.jpg') }}" title="Для ознакомления с биографией Джорджа Харрисона нажмите на картинку"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

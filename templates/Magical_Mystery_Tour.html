@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet" />
+    <title>Magical Mystery Tour</title>
+</head>
+<body>
+    <div class="background">
+        <div class="header">
+            <a href="/home_l"><img class="logo" src="{{ url_for('static', filename='images/BeatlesLogo.png') }}"/></a>
+            <h2 >Magical Mystery Tour</h2>
+            <p class="head_text2">Привет {{ username }}!</p>
+            <a href="/"><p class="head_text">Выход</p></a>
+            <img class="AlbumPhoto" src="{{ url_for('static', filename='images/MagicalMystryTour.jpeg') }}"/><p class="info_text">Magical Mystery Tour (с англ. — «Волшебное таинственное путешествие») — девятый студийный альбом группы The Beatles. Записан в студиях Abbey Road Studios и Olympic Sound в 1967 году в период с 25 апреля по 7 ноября. Альбом по праву можно считать пиком психоделики в творчестве The Beatles.</p><p class="info_text">Песни, попавшие на британскую версию альбома, использовались в фильме «Волшебное таинственное путешествие». Песни со второй стороны записывались группой в течение 1967 года для синглов и в фильме не использовались. Исключение — песня «Hello, Goodbye», которая представляла окончание фильма и звучал только финальный припев песни.</p>
+        </div>
+    </div>
+</body>
+</html>
